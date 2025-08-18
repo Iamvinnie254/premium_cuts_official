@@ -283,8 +283,6 @@
       </div>
     </div>
 
-   
-
     <!-- Service Detail Modal -->
     <div v-if="selectedService" class="fixed inset-0 z-50 overflow-y-auto">
       <div
@@ -570,7 +568,12 @@
 </template>
 
 <script>
-import Barber from "../../../assets/images/Hero/customer1.jpg";
+import Beard from "../../../assets/images/Services/beardshave.jpeg";
+import Classic from "../../../assets/images/Services/classic.jpeg";
+import Shave from "../../../assets/images/Services/shave.jpeg";
+import Royal from "../../../assets/images/Services/Royal.jpeg";
+import Hot from "../../../assets/images/Services/hot.jpeg";
+import Kids from "../../../assets/images/Services/kids.jpeg";
 
 export default {
   name: "ServicesPage",
@@ -642,7 +645,7 @@ export default {
             "Professional styling",
             "Neck shave cleanup",
           ],
-          image: Barber,
+          image: Classic,
         },
         {
           name: "Skin Fade",
@@ -662,7 +665,7 @@ export default {
             "Hot towel treatment",
             "Styling product application",
           ],
-          image: Barber,
+          image: Shave,
         },
         {
           name: "Beard Trim & Shape",
@@ -680,7 +683,7 @@ export default {
             "Hot towel treatment",
             "Beard oil application",
           ],
-          image: Barber,
+          image: Beard,
         },
         {
           name: "Royal Shave",
@@ -698,7 +701,7 @@ export default {
             "Straight razor shave",
             "Post-shave balm",
           ],
-          image: Barber,
+          image: Royal,
         },
         {
           name: "Hot Towel Treatment",
@@ -716,7 +719,7 @@ export default {
             "Muscle relaxation",
             "Skin refreshment",
           ],
-          image: Barber,
+          image: Hot,
         },
         {
           name: "Kids Cut (Under 12)",
@@ -735,7 +738,7 @@ export default {
             "Simple styling",
             "Sticker reward",
           ],
-          image: Barber,
+          image: Kids,
         },
       ],
     };

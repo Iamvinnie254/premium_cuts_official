@@ -5,7 +5,7 @@ import Gallery from "../pages/Gallery/Index/Main.vue";
 import Barbers from "../pages/Team/Index/Main.vue";
 import Contact from "../pages/Contact/Index/Main.vue";
 import NoPage from "../pages/NoPage/Index/Main.vue";
-import Booking from "../pages/Booking/Index/Main.vue"
+import Booking from "../pages/Booking/Index/Main.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,8 +39,8 @@ const router = createRouter({
     {
       path: "/booking",
       name: "booking",
-      component: Booking
-    }
+      component: Booking,
+    },
   ],
 });
 

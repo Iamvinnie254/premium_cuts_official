@@ -1,8 +1,7 @@
 <template>
-    <Navbar/>
-    <Contact/>
-
-    <Footer/>
+  <Navbar />
+  <Contact />
+  <Footer />
 </template>
 <script setup>
 import Navbar from "../../../components/Navbar/Index/Main.vue";

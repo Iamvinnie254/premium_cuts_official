@@ -140,7 +140,9 @@
 </template>
 
 <script>
-import Barber from "../../../assets/images/Hero/customer1.jpg";
+import James from "../../../assets/images/Barbers/James.jpeg";
+import David from "../../../assets/images/Barbers/David.jpeg";
+import Samuel from "../../../assets/images/Barbers/Samuel.jpeg";
 
 export default {
   name: "TestimonialsSection",
@@ -153,21 +155,21 @@ export default {
           text: "Best fade I've ever gotten! The barber took time to understand exactly what I wanted and delivered beyond expectations.",
           rating: 5,
           service: "Skin Fade + Beard Trim",
-          avatar: Barber,
+          avatar: James,
         },
         {
           name: "David Ochieng",
           text: "Consistently great service. I've been coming here for 2 years and never had a bad cut. The hot towel treatment is heavenly.",
           rating: 5,
           service: "Executive Cut",
-          avatar: Barber,
+          avatar: David,
         },
         {
           name: "Samuel Kiptoo",
           text: "Professional environment with skilled barbers. My beard has never looked better after their grooming service.",
           rating: 4,
           service: "Beard Grooming",
-          avatar: Barber,
+          avatar: Samuel,
         },
         // Add more as needed...
       ],

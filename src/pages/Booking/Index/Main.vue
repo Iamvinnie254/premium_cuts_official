@@ -1,7 +1,6 @@
 <template>
   <Navbar />
   <Booking />
-
   <Footer />
 </template>
 <script setup>

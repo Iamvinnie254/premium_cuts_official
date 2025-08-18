@@ -5,12 +5,12 @@
     <div class="absolute inset-0 z-0">
       <!-- Background Image -->
       <img
-        src="../../../assets/images/Hero/customer1.jpg"
+        src="../../../assets/images/HeroPhotos/hero_bg.jpeg"
         alt="Barber working on client"
         class="w-full h-full object-cover"
       />
       <!-- Dark Overlay -->
-      <div class="absolute inset-0 bg-black/90 bg-opacity-50"></div>
+      <div class="absolute inset-0 bg-black/70 bg-opacity-50"></div>
     </div>
     <div
       class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center"
@@ -106,15 +106,15 @@
 </template>
 
 <script>
-import Barber from "../../../assets/images/Hero/customer1.jpg";
-import Barber2 from "../../../assets/images/Hero/customer1.jpg";
-import Barber3 from "../../../assets/images/Hero/customer1.jpg";
-import Barber4 from "../../../assets/images/Hero/customer1.jpg";
+import customer1 from "../../../assets/images/HeroPhotos/customer1.jpeg";
+import customer2 from "../../../assets/images/HeroPhotos/customer2.jpeg";
+import customer3 from "../../../assets/images/HeroPhotos/customer3.jpeg";
+import customer4 from "../../../assets/images/HeroPhotos/customer4.jpeg";
 export default {
   name: "HeroSection",
   data() {
     return {
-      customerImages: [Barber, Barber2, Barber3, Barber4],
+      customerImages: [customer1, customer2, customer3, customer4],
     };
   },
 };

@@ -154,7 +154,12 @@
 </template>
 
 <script>
-import Barber from "../../../assets/images/Hero/customer1.jpg";
+import Beard from "../../../assets/images/Services/beardshave.jpeg";
+import Classic from "../../../assets/images/Services/classic.jpeg";
+import Shave from "../../../assets/images/Services/shave.jpeg";
+import Royal from "../../../assets/images/Services/Royal.jpeg";
+import Hot from "../../../assets/images/Services/hot.jpeg";
+import Kids from "../../../assets/images/Services/kids.jpeg";
 export default {
   name: "ServicesPage",
   data() {
@@ -170,7 +175,7 @@ export default {
           duration: 30,
           category: "Haircuts",
           popular: true,
-          image: Barber,
+          image: Classic,
         },
         {
           name: "Skin Fade",
@@ -180,7 +185,7 @@ export default {
           duration: 45,
           category: "Haircuts",
           popular: true,
-          image: Barber,
+          image: Shave,
         },
         {
           name: "Beard Trim & Shape",
@@ -189,7 +194,7 @@ export default {
           price: 450,
           duration: 25,
           category: "Beards",
-          image: Barber,
+          image: Beard,
         },
         {
           name: "Royal Shave",
@@ -198,7 +203,7 @@ export default {
           price: 700,
           duration: 40,
           category: "Beards",
-          image: Barber,
+          image: Royal,
         },
         {
           name: "Hot Towel Treatment",
@@ -207,7 +212,7 @@ export default {
           price: 300,
           duration: 15,
           category: "Treatments",
-          image: Barber,
+          image: Hot,
         },
         {
           name: "Kids Cut (Under 12)",
@@ -216,7 +221,7 @@ export default {
           price: 500,
           duration: 25,
           category: "Kids",
-          image: Barber,
+          image: Kids,
         },
       ],
     };

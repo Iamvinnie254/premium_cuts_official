@@ -35,7 +35,7 @@
 
         <div class="flex flex-col sm:flex-row justify-center gap-4">
           <router-link
-            to="/contact"
+            to="/booking"
             class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Book Now

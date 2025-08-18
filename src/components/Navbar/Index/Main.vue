@@ -35,11 +35,13 @@
           >
             {{ item.name }}
           </router-link>
-          <button
-            class="bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-md font-medium transition-colors duration-300 cursor-pointer"
+          <router-link to="/booking">
+            <button
+              class="bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-md font-medium transition-colors duration-300 cursor-pointer"
+            >
+              Book Now
+            </button></router-link
           >
-            Book Now
-          </button>
         </div>
 
         <!-- Mobile menu button -->
@@ -92,11 +94,13 @@
           >
             {{ item.name }}
           </router-link>
-          <button
-            class="w-full my-2 bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-md font-medium transition-colors duration-300 cursor-pointer"
+          <router-link to="/booking">
+            <button
+              class="w-full my-2 bg-amber-600 hover:bg-amber-700 px-4 py-2 rounded-md font-medium transition-colors duration-300 cursor-pointer"
+            >
+              Book Now
+            </button></router-link
           >
-            Book Now
-          </button>
         </div>
       </div>
     </transition>
